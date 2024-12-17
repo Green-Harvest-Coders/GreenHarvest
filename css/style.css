@@ -42,8 +42,158 @@ h3 {
 
 /* THİRD SECTİON-BERKAN */
 
+.advertisement {
+  background-color: #fbfbfb;
+  width: 1280px;
+  height: 540px;
+  margin: 1 auto;
+}
+
+.container {
+  width: 1280px;
+  height: 440px;
+  padding: 100px 100px 100px 100px ;
+  gap: 10px;
+  background-color: #fbfbfb;
+  margin: 0 auto;
+}
+
+.advertisement-paragraph {
+  font-family: Inter Tight;
+  font-size: 76px;
+  font-weight: 600;
+  line-height: 76px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  text-transform: uppercase;
+  left: 16px;
+  width: 1054px;
+  height: 228px;
+}
+
+
+.advertisement-paragraph > span {
+  border-top:-4;
+  border-radius: 12px;
+  color: #fbfbfb;
+  background-color: #576f35;
+  width: 808px;
+  height: 84px;
+}
+
+
 /* FOURTH SECTİON-BERKAN */
 
+.vegetables-section {
+  background-color: #7a3145;
+}
+
+.vegetables-container {
+  background-color: #7a3145;
+  width: 1280px;
+  height: 1232px;
+  top: 1984px;
+  gap: 52px;
+  padding: 100px 100px 100px 100px ;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 1 auto;
+ 
+}
+
+.vegetables-block {
+  width: hug (626px);
+  height: hug (192px);
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.vegetables-header {
+  font-family: Inter Tight;
+  font-size: 64px;
+  weight: 600;
+  height: 64px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #fbfbfb;
+}
+
+.vegetables-header-vegetables {
+  font-family: Inter Tight;
+  font-size: 64px;
+  weight: 626;
+  height: 40px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #d4bfc4;
+ 
+}
+
+.vegetables-paragraph {
+  font-family: Inter Tight;
+  font-size: 16px;
+  weight: 500;
+  height: 20px;
+  text-align: left;
+  color: #fbfbfb;
+}
+
+.vegetables-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.card {
+  width: 344px;
+  height: 380px;
+  padding: 32px 0 0 0;
+  gap: 8px;
+  border-radius: 40px;
+  background-color: #fbfbfb;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-container {
+  margin: 0 auto;
+}
+
+.card-text-container {
+  gap: 8px;
+  flex-direction: column;
+  
+}
+
+.card-head {
+  font-family: Inter Tight;
+  size: 32px;
+  weight: 600;
+  height: 32px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #7a3145;
+  
+}
+
+.card-p {
+  font-family: Inter Tight;
+  size: 16px;
+  weight: 500;
+  height: 12px;
+  text-align: left;
+
+}
+
+.card-img {
+  width: 280px;
+  max-width: 244px;
+  
+  
+}
 /* FİFTH SECTİON-NEGİN */
 .review-section {
   background-color: #fbfbfb;
