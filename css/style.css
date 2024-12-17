@@ -35,8 +35,15 @@ h3 {
 }
 
 /* HEADER-SUMEYYE */
+header {
+  background-color: #576f35;
+}
 
 /* FİRST SECTİON-SUMEYYE */
+.first-section {
+  background-color: #576f35;
+  position: relative;
+}
 
 /* SECOND SECTİON-HAYRUNİSA */
 
