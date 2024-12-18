@@ -4,20 +4,19 @@
     background-color: #fbfbfb;
     width: 1280px;
     height: 540px;
-    margin: 1 auto;
 }
 
 .container {
     width: 1280px;
     height: 440px;
-    padding: 100px 100px 100px 100px;
+    padding: 100px;
     gap: 10px;
     background-color: #fbfbfb;
     margin: 0 auto;
 }
 
 .advertisement-paragraph {
-    font-family: Inter Tight;
+    font-family: "Inter Tight",sans-serif;
     font-size: 76px;
     font-weight: 600;
     line-height: 76px;
@@ -30,11 +29,10 @@
 }
 
 
-.advertisement-paragraph>span {
-    border-top: -4;
+.advertisement-paragraph > span {
     border-radius: 12px;
     color: #fbfbfb;
     background-color: #576f35;
     width: 808px;
     height: 84px;
-}
+} 

@@ -14,13 +14,19 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    margin: 1 auto;
+}
+@media (max-width: 768px) {
 
+    .advertisement,
+    .vegetables-container {
+        width: 100%;
+        padding: 20px;
+    }
 }
 
 .vegetables-block {
-    width: hug (626px);
-    height: hug (192px);
+    width: 626px;
+    height: 192px;
     gap: 24px;
     display: flex;
     flex-direction: column;
@@ -29,7 +35,7 @@
 .vegetables-header {
     font-family: Inter Tight;
     font-size: 64px;
-    weight: 600;
+    font-weight: 600;
     height: 64px;
     letter-spacing: -0.015em;
     text-align: left;
@@ -39,18 +45,19 @@
 .vegetables-header-vegetables {
     font-family: Inter Tight;
     font-size: 64px;
-    weight: 626;
+    font-weight: 626;
     height: 40px;
     letter-spacing: -0.015em;
     text-align: left;
     color: #d4bfc4;
+    
 
 }
 
 .vegetables-paragraph {
     font-family: Inter Tight;
     font-size: 16px;
-    weight: 500;
+    font-weight: 500;
     height: 20px;
     text-align: left;
     color: #fbfbfb;
@@ -59,19 +66,24 @@
 .vegetables-content {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     gap: 24px;
+    /*justify-content: center; */
 }
 
 .card {
+    flex: 1 1 calc(33.333% - 40px);
     width: 344px;
     height: 380px;
-    padding: 32px 0 0 0;
+    padding: 32px;
     gap: 8px;
     border-radius: 40px;
     background-color: #fbfbfb;
     display: flex;
     flex-direction: column;
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: scale(0.9);
 }
 
 .card-container {
@@ -86,21 +98,22 @@
 
 .card-head {
     font-family: Inter Tight;
-    size: 32px;
-    weight: 600;
-    height: 32px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
     letter-spacing: -0.015em;
     text-align: left;
     color: #7a3145;
+    margin-bottom: 12px;
 
 }
 
 .card-p {
     font-family: Inter Tight;
-    size: 16px;
-    weight: 500;
-    height: 12px;
-    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.01em;
 
 }
 
