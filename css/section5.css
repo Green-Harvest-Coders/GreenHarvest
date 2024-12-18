@@ -1,5 +1,96 @@
-.review-section {
-  background-color: brown;
+.review-div {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 20px 80px 20px;
+  gap: 40px;
+  background-color: #fbfbfb;
+}
+.review {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.customer-ul {
+  margin: 0;
+  padding: 0;
 }
 .review-h {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  margin: 0;
+}
+.review-span {
+  color: #576f35;
+}
+.review-p {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  margin: 0;
+}
+.customer-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 20px 26px 20px 16px;
+}
+.customer-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.p-h-img {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.customer-li {
+  list-style-type: none;
+  border: 1px solid #d4bfc4;
+  border-radius: 24px;
+}
+.img-h {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  margin: 0;
+}
+.img-p {
+  font-family: "Inter Tight", sans-serif;
+  color: #858585;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .customer-ul {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (min-width: 1280px) {
+  .review-div {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 52px;
+  }
+  .customer-ul {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
 }
