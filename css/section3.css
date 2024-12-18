@@ -36,3 +36,78 @@
     width: 808px;
     height: 84px;
 } 
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .advertisement {
+        width: 768px;
+        height: 88px;
+        top: 2568px;
+        padding: 100px 32px 100px 32px;
+        gap: 10px;
+        opacity: 0px;
+    }
+        .container {
+        float: left;
+    
+        }
+
+    .advertisement span {
+        width: 675px;
+        height: 86px;
+        gap: 0px;
+        border-radius: 12px 0px 0px 0px;
+        opacity: 0px;
+    }
+    .advertisement h2 {
+        font-family: Inter Tight;
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 64px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        width: 704px;
+        height: 288px;
+        gap: 0px;
+        opacity: 0px;
+    }
+}
+
+         @media (max-width: 767px) {
+            .advertisement {
+                    width: 375px;
+                    height: 472px;
+                    top: 2048px;
+                    padding: 80px 20px 80px 20px;
+                    gap: 10px;
+                    opacity: 0px;
+                }
+                .container{
+                   float: left;
+                        
+                }
+
+                .advertisement span {
+                    width: 335px;
+                    height: 102px;
+                    gap: 0px;
+                    border-radius: 12px 0px 0px 0px;
+                    opacity: 0px;
+                }
+            
+                .advertisement h2 {
+                    font-family: Inter Tight;
+                    font-size: 48px;
+                    font-weight: 600;
+                    line-height: 52px;
+                    letter-spacing: -0.015em;
+                    text-align: left;
+                    text-underline-position: from-font;
+                    text-decoration-skip-ink: none;
+                    width: 335px;
+                    height: 312px;
+                    gap: 0px;
+                    opacity: 0px;
+                }
+         }
