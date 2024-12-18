@@ -1,10 +1,11 @@
-/* *,
+*,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-} */
+}
+
 /* Negin */
 body {
   font-family: "Inter Tight", sans-serif;
@@ -41,17 +42,201 @@ h3 {
   font-weight: 600;
 }
 
-/* HEADER-SUMEYYE */
-@media (min-width: 768px) {
+/* SUMEYYE (HEADER VE MAIN-FIRST-SECTION) mobile-tablet-pc */
+/* Sumeyye header ve main first mobile */
+.container {
+  width: 100%;
+  margin: 0 auto;
 }
 
+header {
+  margin: 0 auto;
+  background-color: #576f35;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.header-list-container {
+  display: none;
+}
+
+.header-logo-title {
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+}
+
+.ninesquares {
+  height: 20px;
+  width: 20px;
+}
+
+.header-title {
+  color: #fbfbfb;
+  text-transform: uppercase;
+}
+
+.header-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.header-button {
+  display: none;
+}
+
+.menuicon {
+  width: 26.67px;
+  height: 20px;
+}
+
+.section-one-left {
+  padding-left: 20px;
+  padding-top: 48px;
+  padding-right: 20px;
+}
+
+.section-one-left-title {
+  width: 704px;
+  height: 228px;
+  color: #fbfbfb;
+  font-weight: 600px;
+  size: 76px;
+  line-height: 76px;
+  padding-bottom: 24px;
+}
+
+.section-one-left-text {
+  width: 603px;
+  height: 60px;
+  color: #fbfbfb;
+  font-weight: 500px;
+  size: 16px;
+  line-height: 20px;
+}
+
+.section-one-right {
+  width: 375px;
+  height: 372px;
+}
+
+.first-section {
+  background-color: #576f35;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Sumeyye header ve main first tablet */
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  header {
+    margin: 0 auto;
+    background-color: #576f35;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-right: 32px;
+  }
+
+  .header-list-container {
+    display: none;
+  }
+
+  .header-logo-title {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+  }
+
+  .ninesquares {
+    height: 20px;
+    width: 20px;
+  }
+
+  .header-title {
+    color: #fbfbfb;
+    text-transform: uppercase;
+  }
+
+  .header-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 10px;
+  }
+
+  .header-button {
+    display: none;
+  }
+
+  .menuicon {
+    width: 26.67px;
+    height: 20px;
+  }
+
+  .section-one-left {
+    padding-left: 32px;
+    padding-top: 48px;
+    padding-right: 32px;
+  }
+
+  .section-one-left-title {
+    width: 704px;
+    height: 228px;
+    color: #fbfbfb;
+    font-weight: 600px;
+    size: 76px;
+    line-height: 76px;
+    padding-bottom: 24px;
+  }
+
+  .section-one-left-text {
+    width: 603px;
+    height: 60px;
+    color: #fbfbfb;
+    font-weight: 500px;
+    size: 16px;
+    line-height: 20px;
+  }
+
+  .section-one-right {
+    width: 768px;
+    height: 536px;
+  }
+
+  .first-section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+
+/* Sumeyye header ve main first pc */
 @media (min-width: 1280px) {
   header {
     margin: 0 auto;
     background-color: #576f35;
   }
 
-  /* FİRST SECTİON-SUMEYYE */
   .first-section {
     background-color: #576f35;
     position: relative;
