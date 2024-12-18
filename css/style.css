@@ -1,3 +1,10 @@
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
 /* Negin */
 body {
   font-family: "Inter Tight", sans-serif;
@@ -35,15 +42,20 @@ h3 {
 }
 
 /* HEADER-SUMEYYE */
-header {
-  margin: 0 auto;
-  background-color: #576f35;
+@media (min-width: 768px) {
 }
 
-/* FİRST SECTİON-SUMEYYE */
-.first-section {
-  background-color: #576f35;
-  position: relative;
+@media (min-width: 1280px) {
+  header {
+    margin: 0 auto;
+    background-color: #576f35;
+  }
+
+  /* FİRST SECTİON-SUMEYYE */
+  .first-section {
+    background-color: #576f35;
+    position: relative;
+  }
 }
 
 /* SECOND SECTİON-HAYRUNİSA */
