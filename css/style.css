@@ -40,44 +40,56 @@ h3 {
 /* FİRST SECTİON-SUMEYYE */
 
 /* SECOND SECTİON-HAYRUNİSA */
-.second-part {
-  display: flex;
-}
 
 .images-block {
   background-color: #7A3145;
-  width: 640px;
-  height: 760px;
-
 }
 
 .woman-one {
-  border-radius: 30px;
-  padding: 100px;
+  width: 355px;
+  height: 452px;
+
 }
 
 .text-block {
-  background-color: #576F35;
-  width: 640px;
-  height: 760px;
-
-
+  background-color: #576f35;
 }
 
-.text-block-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 440px;
-  height: 560px;
+.div-title-p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: "inter Tight", sans-serif;
 }
 
 .text-block-title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 28px;
+  letter-spacing: -0.015em;
+  font-family: "inter Tight", sans-serif;
   text-transform: uppercase;
 }
 
-.list {}
+.text-color {
+  color: #d4bfc4;
+}
+
+.list-ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-one {
+  border: 1px solid white;
+  background-color: #fbfbfb;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+
 
 /* THİRD SECTİON-BERKAN */
 
