@@ -21,6 +21,7 @@ body b {
   font-weight: 700;
   color: #141414;
 }
+
 h1 {
   font-size: 76px;
   line-height: 76px;
@@ -100,6 +101,8 @@ header {
 }
 
 .section-one-left {
+  width: 375px;
+  height: 740px;
   padding-left: 20px;
   padding-top: 48px;
   padding-right: 20px;
@@ -112,7 +115,6 @@ header {
   font-weight: 600px;
   size: 76px;
   line-height: 76px;
-  padding-bottom: 24px;
 }
 
 .section-one-left-text {
@@ -185,15 +187,35 @@ header {
   }
 
   .header-button {
-    display: none;
+    color: #fbfbfb;
+    background-color: #7a3145;
+    padding: 16px 32px;
+    border-radius: 30px;
+  }
+
+  .menuitems {
+    display: flex;
+    flex-direction: row;
+    color: #fbfbfb;
+    gap: 10px;
+  }
+
+  .menuitem {
+    padding: 12px;
+    border: 1px #fbfbfb solid;
+    border-radius: 12px;
   }
 
   .menuicon {
     width: 26.67px;
     height: 20px;
+    display: none;
   }
 
   .section-one-left {
+    position: absolute;
+    width: 504px;
+    height: 564px;
     padding-left: 32px;
     padding-top: 48px;
     padding-right: 32px;
@@ -225,7 +247,7 @@ header {
 
   .first-section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 24px;
   }
 }
@@ -240,6 +262,122 @@ header {
   .first-section {
     background-color: #576f35;
     position: relative;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  header {
+    margin: 0 auto;
+    background-color: #576f35;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-right: 32px;
+    position: absolute;
+  }
+
+  .header-list-container {
+    display: none;
+  }
+
+  .header-logo-title {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+  }
+
+  .ninesquares {
+    height: 20px;
+    width: 20px;
+  }
+
+  .header-title {
+    color: #fbfbfb;
+    text-transform: uppercase;
+  }
+
+  .header-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 10px;
+  }
+
+  .header-button {
+    color: #fbfbfb;
+    background-color: #7a3145;
+    padding: 16px 32px;
+    border-radius: 30px;
+  }
+
+  .menuitems {
+    display: flex;
+    flex-direction: row;
+    color: #fbfbfb;
+    gap: 10px;
+  }
+
+  .menuitem {
+    padding: 12px;
+    border: 1px #fbfbfb solid;
+    border-radius: 12px;
+  }
+
+  .menuicon {
+    width: 26.67px;
+    height: 20px;
+    display: none;
+  }
+
+  .section-one-left {
+    display: flex;
+    position: absolute;
+    width: 504px;
+    height: 564px;
+    padding-left: 32px;
+    padding-top: 48px;
+    padding-right: 32px;
+  }
+
+  .section-one-left-title {
+    width: 704px;
+    height: 228px;
+    color: #fbfbfb;
+    font-weight: 600px;
+    size: 76px;
+    line-height: 76px;
+    padding-bottom: 24px;
+  }
+
+  .section-one-left-text {
+    width: 603px;
+    height: 60px;
+    color: #fbfbfb;
+    font-weight: 500px;
+    size: 16px;
+    line-height: 20px;
+  }
+
+  .section-one-right {
+    width: 768px;
+    height: 536px;
+  }
+
+  .first-section {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background-color: #576f35;
+    width: 1280px;
+    height: 796px;
   }
 }
 
