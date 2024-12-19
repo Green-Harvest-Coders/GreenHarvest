@@ -1,142 +1,249 @@
 /* FOURTH SECTİON-BERKAN */
 
-.vegetables-section {
-    background-color: #7a3145;
-}
+   
+     /* Vegetables Bölümü */
+@media (max-width: 767px) {
+     .vegetables-section {
+         width: 455px;
+         height: 2760px;
+         top: 2520px;
+         color: #7a3145;
+         padding: 80px 20px 80px 20px;
+         gap: 40px;
+         opacity: 0px;
+        
+     }
 
-.vegetables-container {
-    background-color: #7a3145;
-    width: 1280px;
-    height: 1232px;
-    top: 1984px;
-    gap: 52px;
-    padding: 100px 100px 100px 100px;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-}
-@media (max-width: 768px) {
+     .vegetables-container {
+         
+         gap: 20px;
+         opacity: 0px;
+        background-color: #7a3145;
+        padding-top: 20px;
+       
 
-    .advertisement,
+     }
+       .vegetables-header {
+            font-family: Inter Tight;
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 52px;
+            letter-spacing: -0.015em;
+            text-align: left;
+            color: #FBFBFB;
+       }
+           .vegetables-header span{
+            color:#D4BFC4;
+           }
+        .vegetables-paragraph {  
+                font-family: Inter Tight;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 15px;
+                text-align: left;
+                color: #FBFBFB;
+                padding-left: 20px;
+                
+                
+        }
+
+
+     .vegetables-block {
+         width: 335px;
+         height: 204px;
+         gap: 20px;
+         opacity: 0px;
+        background-color: #7a3145;
+        margin-bottom:80px;
+     }
+         .card {
+             width: 335px;
+             height: 376px;
+             padding: 32px 24px 32px 24px;
+             gap: 10x;
+             border-radius: 40px;
+             background-color: #fbfbfb;
+             display: flex;
+             flex-direction: column;
+             transition: transform 0.3s ease;
+            margin-bottom: 20px;
+         }
+       
+    
+     .card-container {
+         width: 335px;
+         height: 356px;
+         gap: 20px;
+         opacity: 0px;
+         
+
+     }
+
+     .card-img{
+        width: 280px;
+      height: 220px;
+       gap: 0px;
+       opacity: 0px;
+    
+
+     }
+
+     .card-container .card-text-container h2 {
+         font-family: Inter Tight;
+         font-size: 28px;
+         font-weight: 600;
+         line-height: 28px;
+         letter-spacing: -0.015em;
+         text-align: left;
+         text-underline-position: from-font;
+         text-decoration-skip-ink: none;
+    
+         
+     }
+
+     .card-container .card-text-container p {
+         font-family: Inter Tight;
+         font-size: 14px;
+         font-weight: 500;
+         line-height: 20px;
+         text-align: left;
+         text-underline-position: from-font;
+         text-decoration-skip-ink: none;
+         color:#141414;
+     }
+ 
+    }
+@media (min-width: 1025px){
+    .vegetables-section {
+     background-color: #7a3145;
+    }
+
     .vegetables-container {
-        width: 100%;
-        padding: 20px;
+     background-color: #7a3145;
+     width: 1280px;
+     height: 1232px;
+     top: 1984px;
+     gap: 52px;
+     padding: 0px 0px 0px 100px;
+     display: flex;
+     flex-direction: column;
+     overflow: hidden;
+    }
+    .vegetables-block {
+      width: 626px;
+     height: 192px;
+     gap: 24px;
+     display: flex;
+     flex-direction: column;
+    }
+
+    .vegetables-header {
+     font-family: Inter Tight;
+        font-size: 64px;
+      font-weight: 600;
+     height: 64px;
+     letter-spacing: -0.015em;
+     text-align: left;
+     color: #fbfbfb;
+    }
+
+    .vegetables-header-vegetables {
+      font-family: Inter Tight;
+     font-size: 64px;
+     font-weight: 626;
+     height: 40px;
+     letter-spacing: -0.015em;
+     text-align: left;
+     color: #d4bfc4;
+    
+
+    }
+
+    .vegetables-paragraph {
+     font-family: Inter Tight;
+     font-size: 16px;
+     font-weight: 500;
+     height: 20px;
+     text-align: left;
+     color: #fbfbfb;
+    }
+
+    .vegetables-content {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 24px;
+    margin-top: 100px;
+   
+    }
+
+    .card {
+        flex: 1 1 calc(33.333% - 40px);
+        width: 340x;
+      height: 380px;
+     padding: 32px;
+      gap: 12px;
+      border-radius: 40px;
+      background-color: #fbfbfb;
+      display: flex;
+     flex-direction: column;
+     transition: transform 0.3s ease;
+        }
+    .card:hover {
+     transform: scale(0.9);
+    }
+
+    .card-container {
+     margin: 0 auto;
+
+    }
+
+    .card-text-container {
+      gap: 8px;
+     flex-direction: column;
+
+    }
+
+    .card-head {
+     font-family: Inter Tight;
+     font-size: 32px;
+     font-weight: 600;
+      line-height: 32px;
+      letter-spacing: -0.015em;
+       text-align: left;
+       color: #7a3145;
+       margin-bottom: 12px;
+
+    }
+
+    .card-p {
+      font-family: Inter Tight;
+     font-weight: 600;
+     font-size: 14px;
+      line-height: 129%;
+      letter-spacing: -0.01em;
+
+    }
+
+    .card-img {
+      width: 280px;
+     max-width: 244px;
+
+
     }
 }
 
-.vegetables-block {
-    width: 626px;
-    height: 192px;
-    gap: 24px;
-    display: flex;
-    flex-direction: column;
-}
-
-.vegetables-header {
-    font-family: Inter Tight;
-    font-size: 64px;
-    font-weight: 600;
-    height: 64px;
-    letter-spacing: -0.015em;
-    text-align: left;
-    color: #fbfbfb;
-}
-
-.vegetables-header-vegetables {
-    font-family: Inter Tight;
-    font-size: 64px;
-    font-weight: 626;
-    height: 40px;
-    letter-spacing: -0.015em;
-    text-align: left;
-    color: #d4bfc4;
-    
-
-}
-
-.vegetables-paragraph {
-    font-family: Inter Tight;
-    font-size: 16px;
-    font-weight: 500;
-    height: 20px;
-    text-align: left;
-    color: #fbfbfb;
-}
-
-.vegetables-content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-   
-}
-
-.card {
-    flex: 1 1 calc(33.333% - 40px);
-    width: 340x;
-    height: 380px;
-    padding: 32px;
-    gap: 12px;
-    border-radius: 40px;
-    background-color: #fbfbfb;
-    display: flex;
-    flex-direction: column;
-    transition: transform 0.3s ease;
-}
-.card:hover {
-    transform: scale(0.9);
-}
-
-.card-container {
-    margin: 0 auto;
-
-}
-
-.card-text-container {
-    gap: 8px;
-    flex-direction: column;
-
-}
-
-.card-head {
-    font-family: Inter Tight;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 32px;
-    letter-spacing: -0.015em;
-    text-align: left;
-    color: #7a3145;
-    margin-bottom: 12px;
-
-}
-
-.card-p {
-    font-family: Inter Tight;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 129%;
-    letter-spacing: -0.01em;
-
-}
-
-.card-img {
-    width: 280px;
-    max-width: 244px;
-
-
-}
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
-        /* Vegetables Bölümü */
-        .vegetables-section {
+          .vegetables-section {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            /* Duyarlı sütun sayısı */
             gap: 20px;
             padding: 20px;
             border-radius: 10px;
         }
-
     
+        /* Kapsayıcı */
         .vegetables-container .card-text-container {
             display: flex;
             flex-direction: column;
@@ -145,8 +252,11 @@
             padding: 15px;
             border-radius: 10px;
             text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            /* Hafif gölge */
         }
     
+        /* Görsel */
         .vegetables-container .card-text-container img {
             width: 100%;
             max-width: 150px;
@@ -154,78 +264,17 @@
             margin-bottom: 10px;
         }
     
+        /* Başlık */
         .card-container .card-text-container h2 {
             font-size: 18px;
             color: #2a5934;
             margin: 10px 0;
         }
     
+        /* Paragraf */
         .card-container .card-text-container p {
             font-size: 14px;
             color: #555;
             line-height: 1.4;
         }
-    }
-
-        @media (max-width: 767px) {
-    
-            /* Vegetables Bölümü */
-
-            .vegetables-section{
-                    top: 2520px;
-                    color: #7a3145;
-                    padding: 80px 20px 80px 20px;
-                    gap: 40px;
-                    opacity: 0px;
-            }
-            .vegetables-container {
-                width: 335px;
-                height: 204px;
-                gap: 20px;
-                opacity: 0px;
-                
-            }
-            .vegetables-block {
-                width: 335px;
-                height: 204px;
-                gap: 20px;
-                opacity: 0px;
-            }
-    
-            .card-container {
-                width: Hug (335px)px;
-                    height: Hug (2, 356px)px;
-                    gap: 20px;
-                    opacity: 0px;
-                
-            }
-    
-            .card-container .card-text-container img {
-                width: 280px;
-                    height: 240px;
-                    gap: 0px;
-                    opacity: 0px;
-                
-            }
-    
-            .card-container .card-text-container h2 {
-                font-family: Inter Tight;
-                font-size: 28px;
-                font-weight: 600;
-                line-height: 28px;
-                letter-spacing: -0.015em;
-                text-align: left;
-                text-underline-position: from-font;
-                text-decoration-skip-ink: none;
-            }
-            .card-container .card-text-container p {
-                    font-family: Inter Tight;
-                    font-size: 14px;
-                    font-weight: 500;
-                    line-height: 20px;
-                    text-align: left;
-                    text-underline-position: from-font;
-                    text-decoration-skip-ink: none;
-            }
-        }
-                       
+    } 
