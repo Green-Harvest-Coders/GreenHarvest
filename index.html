@@ -1,30 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com/" />
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/section1.css" />
-    <link rel="stylesheet" href="./css/section2.css" />
-    <link rel="stylesheet" href="./css/section3.css" />
-    <link rel="stylesheet" href="./css/section4.css" />
-    <link rel="stylesheet" href="./css/section5.css" />
-    <link rel="stylesheet" href="./css/section6.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
-  </head>
-  
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com/" />
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/header.css" />
+  <link rel="stylesheet" href="./css/section1.css" />
+  <link rel="stylesheet" href="./css/section2.css" />
+  <link rel="stylesheet" href="./css/section3.css" />
+  <link rel="stylesheet" href="./css/section4.css" />
+  <link rel="stylesheet" href="./css/section5.css" />
+  <link rel="stylesheet" href="./css/section6.css" />
+  <link rel="stylesheet" href="./css/footer.css" />
+</head>
+
 <body>
   <header>
     <!-- Sümeyye -->
@@ -34,16 +30,17 @@
     <section>
       <!-- Sümeyye -->
     </section>
-    
+
     <!-- SECOND SECTİON -->
     <section>
       <!-- Hayrunisa -->
-      <div class="second-part">
+      <h2 class="visually-hidden">How it works</h2>
+      <div class="second-part container">
         <div class="images-block">
-          <img class="woman-one" src="./images/woman-one.png" alt="woman">
+          <img class="section-second-woman" src="./images/section-2-tel.png"
+            srcset="./images/section-2-tel.png , ./images/section-2-tab.png , ./images/section-2-pc.png" alt="woman">
         </div>
         <div class="text-block">
-
           <div class="div-title-p">
             <h2 class="text-block-title">
               To order your <span class="text-color">vegetable</span> basket, simply follow these
@@ -53,34 +50,40 @@
               Our baskets are assembled with care and delivered straight to your doorstep, so you can enjoy the taste of
               fresh fruit
               without ever leaving your home.
-
             </p>
           </div>
           <div class="text-block-list">
             <ul class="list-ul">
               <li class="list-one">
                 <div class="order-div">
-                  <svg class="list-svg" width="52" height="52">
-                    <use href="./images/icons.svg#icon-madde-1"></use>
-                  </svg>
-                  Just choose <span class="list-color">the vegetable</span> you want to order by clicking on the
-                  checkboxes <span class="list-color">next to it.</span>
+                  <div class="list-img-div">
+                    <img class="list-img" src="./images/section-li-1.png" alt="one">
+                  </div>
+                  <div class="order-div-p">
+                    Just choose <span class="list-color">the vegetable</span> you want to order by clicking on the
+                    checkboxes <span class="list-color">next to it.</span>
+                  </div>
                 </div>
               </li>
               <li class="list-one">
                 <div class="order-div">
-                  <svg class="list-svg" width="52" height="52">
-                    <use href="./images/icons.svg#icon-madde-2"></use>
-                  </svg>
-                  Click on <span class="list-color">the basket</span> and fill out the form.
+                  <div class="list-img-div">
+                    <img class="list-img" src="./images/section-li-2.png" alt="two">
+                  </div>
+                  <div class="order-div-p">
+                    Click on <span class="list-color">the basket</span> and fill out the form.
+                  </div>
                 </div>
               </li>
               <li class="list-one">
                 <div class="order-div">
-                  <svg class="list-svg" width="52" height="52">
-                    <use href="./images/icons.svg#icon-madde-3"></use>
-                  </svg>
-                  Sit back and relax! Your <span class="list-color">fresh vegetables</span> basket will be delivered.
+                  <div class="list-img-div">
+                    <img class="list-img" src="./images/section-li-3.png" alt="three">
+                  </div>
+                  <div class="order-div-p">
+                    Sit back and relax! Your <span class="list-color">fresh vegetables</span> basket will be delivered.
+                  </div>
+
                 </div>
               </li>
             </ul>
@@ -89,7 +92,7 @@
         </div>
       </div>
     </section>
-    
+
     <!-- THİRD SECTİON -->
     <section>
       <!-- Berkan -->
@@ -102,55 +105,8 @@
 
     <!-- FİFTH SECTİON -->
     <!-- Negin -->
-    <section class="review-section">
-      <div class="review-div">
-        <div class="review">
-          <h2 class="review-h">
-            REVİEWS FROM <br />
-            OUR <span class="review-span">CUSTOMERS</span>
-          </h2>
-          <p class="review-p">
-            Words of our customers: impressions and opinions about the quality
-            of our <br />
-            services and the freshness of our products.
-          </p>
-        </div>
-        <ul class="customer-ul">
-          <li class="customer-li">
-            <div class="customer-div">
-              <img class="customer-img" src="./images/customer1.png" alt="Jhon Wax" />
-              <h4 class="img-h">Jhon Wax</h4>
-              <p class="img-p">
-                These vegetables are my secret to delicious and healthy meals.
-                The quality is always at the highest level, the aroma and
-                taste are enchanting. I advise every fan of real products!
-              </p>
-            </div>
-          </li>
-          <li class="customer-li">
-            <div class="customer-div">
-              <img class="customer-img" src="./images/customer2.png" alt="Victoria Romashenko" />
-              <h4 class="img-h">Victoria Romashenko</h4>
-              <p class="img-p">
-                I love how fast and fresh the vegetables are delivered. Salads
-                always turn out so appetizing, and soups are real
-                masterpieces. The quality is impeccable!
-              </p>
-            </div>
-          </li>
-          <li class="customer-li">
-            <div class="customer-div">
-              <img class="customer-img" src="./images/customer3.png" alt="Ihor Trachuk" />
-              <h4 class="img-h">Ihor Trachuk</h4>
-              <p class="img-p">
-                Recently tried my fresh tomatoes and peppers - amazing! The
-                authenticity of the taste, as if from the garden directly to
-                my table. It is now my main vegetable supplier.
-              </p>
-            </div>
-          </li>
-        </ul>
-      </div>
+    <section>
+
     </section>
 
     <!-- SİXTH SECTİON -->
@@ -161,7 +117,7 @@
 
   <footer>
     <!-- Ahmet -->
-    
+
   </footer>
 </body>
 
