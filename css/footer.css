@@ -1,118 +1,138 @@
+.footer {
+  background-color: #7a3145;
+  display: flex;
+  flex-direction: column;
+}
 .footer-contanier {
-    background-color: #7a3145;
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-    padding: 40px 20px 40px 20px;
-    font-family: "Inter Tight", sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px 40px 20px;
+  gap: 40px;
 }
-
 .footer-first-part {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
-
 .first-part-p {
-    color: #fbfbfb;
-    margin: 0;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #fbfbfb;
 }
-
-.address {
-    color: #fbfbfb;
+.footer-nav-ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 14px;
 }
-
-.address-li {
-    color: #fbfbfb;
+.footer-nav-li-a {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #fbfbfb;
+  text-decoration: none;
 }
-
-.privacy-policy,
-.cookie-settings {
-    color: #D4BFC4;
-}
-
-.footer-link {
-    color: #D4BFC4;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-}
-
-.footer-h2 {
-    text-transform: uppercase;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 50px;
-    letter-spacing: -0.015em;
-    text-align: left;
-    color: #fbfbfb;
-    margin: 0;
-}
-
-.address-li,
-.privacy-policy,
-.cookie-settings {
-    text-decoration: none;
-}
-
-.address {
-    font-style: normal;
-
-}
-
-.address-ul {
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 20px;
-}
-
-
 .address-ul,
-.footer-link {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.privacy-ul {
+  list-style-type: none;
 }
-
-.first-part-how-it-works {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+.address-li {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  text-decoration: none;
+  color: #fbfbfb;
+  font-style: normal;
+}
+.footer-privacy {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer-privacy-alt {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.footer-privacy-a {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #d4bfc4;
+}
+.footer-harvest {
+  font-family: "Inter Tight", sans-serif;
+  color: #d4bfc4;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+}
+.privacy-ul {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
 }
 
 @media (min-width: 768px) {
-    .footer-first-part {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .footer-link {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+  .footer-first-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 212px;
+  }
+  .footer-privacy-a {
+    font-size: 16px;
+  }
+  .first-part-green-harvest {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-privacy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer-contanier {
+    padding: 32px;
+  }
+  .footer-harvest {
+    padding-right: 10px;
+  }
+  .footer-nav-li-a {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .footer-dunya {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
 }
-
 @media (min-width: 1280px) {
-    .footer-first-part {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .first-part-how-it-works {
-        display: flex;
-        flex-direction: row;
-    }
+  .footer-contanier {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+  }
+  .footer-first-part {
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+  }
+  .footer-dunya {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+  }
 }
