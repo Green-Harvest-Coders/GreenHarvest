@@ -26,69 +26,63 @@
   </head>
 
   <body>
-    <header>
-      <div class="header-container container">
-        <!-- Sümeyye -->
-        <div class="header-logo-title">
-          <svg class="ninesquares">
-            <use href="./images/icons.svg#greenharvestlogo"></use>
+
+    <!-- Sümeyye -->
+    <header class="header-container">
+      <div class="header-place">
+        <svg class="svg" width="168px" height="16px">
+          <use href="./images/symbol-defs.svg#icon-GreenHarvest"></use>
+        </svg>
+        <svg class="three-svg" width="32px" height="32px">
+          <use href="./images/icons.svg#icon-Vector"></use>
+        </svg>
+      </div>
+      <div class="menu-container is-open">
+        <div class="menu-header">
+          <svg class="cross" width="32" height="32">
+            <use href="./images/symbol-defs.svg#cross"></use>
           </svg>
-          <h4 class="header-title">Green.Harvest</h4>
         </div>
-        <div class="header-list-container">
-          <ul class="header-list">
-            <li class="header-list-item">
-              <h5>How It Works</h5>
-            </li>
-            <li class="header-list-item">
-              <h5>Vegetables</h5>
-            </li>
-            <li class="header-list-item">
-              <h5>Reviews</h5>
-            </li>
-          </ul>
+        <div class="menu-items">
+          <button class="menu-item">How It Works</button>
+          <button class="menu-button">Vegetables</button>
+          <button class="menu-button review">Reviews</button>
         </div>
-        <div class="header-button">
-          <h4>Shop Now</h4>
-        </div>
-        <div class="menu">
-          <div class="menuitems">
-            <div class="menuitem"><p>How It Works</p></div>
-            <div class="menuitem"><p>Vegetables</p></div>
-            <div class="menuitem"><p>Reviews</p></div>
-          </div>
-          <!-- <a href="javascript:void(0);" class="menuIkon" onclick="menuAc()">
-            <div><p>How It Works</p></div>
-            <div><p>Vegetables</p></div>
-            <div><p>Reviews</p></div>
-          </a> -->
-          <svg class="menuicon">
-            <use href="./images/icons.svg#menuicon"></use>
-          </svg>
+        <div class="shop-now">
+          <button class="shop-now-btn">SHOP NOW</button>
         </div>
       </div>
     </header>
     <main>
       <!-- FİRST SECTİON -->
-      <section class="first-section container">
+      <section>
         <!-- Sümeyye -->
-        <div class="section-one-left">
-          <div class="section-one-left-title">
-            <h1>Organic vegetables to your diet today!</h1>
-            <p>
-              Our expertly curated vegetable baskets are made with the freshest,
-              highest quality vegetables available. Fresh Harvest Box has got
-              you covered. Fresh, high-quality vegetables in expertly curated
-              vegetable baskets delivered to you.
-            </p>
+        <section class="hero">
+          <div class="container hero-container">
+            <div class="hero-left">
+              <h1 class="h-hero">ORGANIC VEGETABLES TO YOUR DIET TODAY!</h1>
+              <p class="paragraph-hero">
+                Our expertly curated vegetable baskets are made with the
+                freshest, highest quality vegetables available. Fresh Harvest
+                Box has got you covered. Fresh, high-quality vegetables in
+                expertly curated vegetable baskets delivered to you.
+              </p>
+            </div>
+            <div class="img-container">
+              <img
+                class="vegetable-img-hero"
+                srcset="
+                  ./images/hero1.png  375w,
+                  ./images/hero2.png  768w,
+                  ./images/hero3.png 1280w
+                "
+                alt="vegetables in the basket"
+              />
+            </div>
           </div>
-
-          <div class="section-one-right">
-            <img src="./images/foodbasketpc.jpg" alt="Food Basket" />
-          </div>
-        </div>
+        </section>
       </section>
-
+      
       <!-- SECOND SECTİON -->
       <section>
         <!-- Hayrunisa -->
@@ -157,7 +151,8 @@
         <div class="review-div">
           <div class="review">
             <h2 class="review-h">
-              REVİEWS FROM <br />
+              REVIEWS FROM <br />
+
               OUR <span class="review-span">CUSTOMERS</span>
             </h2>
             <p class="review-p">
@@ -169,47 +164,62 @@
           <ul class="customer-ul">
             <li class="customer-li">
               <div class="customer-div">
-                <img
-                  class="customer-img"
-                  src="./images/customer1.png"
-                  alt="Jhon Wax"
-                />
-                <h4 class="img-h">Jhon Wax</h4>
-                <p class="img-p">
-                  These vegetables are my secret to delicious and healthy meals.
-                  The quality is always at the highest level, the aroma and
-                  taste are enchanting. I advise every fan of real products!
-                </p>
+                <div class="img-div">
+                  <img
+                    class="customer-img"
+                    src="./images/customer1.png"
+                    alt="Jhon Wax"
+                  />
+                </div>
+                <div class="p-h-img">
+                  <h4 class="img-h">Jhon Wax</h4>
+                  <p class="img-p">
+                    These vegetables are my secret to delicious and healthy
+                    meals. The quality is always at the highest level, the aroma
+                    and taste are enchanting. I advise every fan of real
+                    products!
+                  </p>
+                </div>
               </div>
             </li>
             <li class="customer-li">
               <div class="customer-div">
-                <img
-                  class="customer-img"
-                  src="./images/customer2.png"
-                  alt="Victoria Romashenko"
-                />
-                <h4 class="img-h">Victoria Romashenko</h4>
-                <p class="img-p">
-                  I love how fast and fresh the vegetables are delivered. Salads
-                  always turn out so appetizing, and soups are real
-                  masterpieces. The quality is impeccable!
-                </p>
+
+                <div class="img-div">
+                  <img
+                    class="customer-img"
+                    src="./images/customer2.png"
+                    alt="Victoria Romashenko"
+                  />
+                </div>
+                <div class="p-h-img">
+                  <h4 class="img-h">Victoria Romashenko</h4>
+                  <p class="img-p">
+                    I love how fast and fresh the vegetables are delivered.
+                    Salads always turn out so appetizing, and soups are real
+                    masterpieces. The quality is impeccable!
+                  </p>
+                </div>
               </div>
             </li>
             <li class="customer-li">
               <div class="customer-div">
-                <img
-                  class="customer-img"
-                  src="./images/customer3.png"
-                  alt="Ihor Trachuk"
-                />
-                <h4 class="img-h">Ihor Trachuk</h4>
-                <p class="img-p">
-                  Recently tried my fresh tomatoes and peppers - amazing! The
-                  authenticity of the taste, as if from the garden directly to
-                  my table. It is now my main vegetable supplier.
-                </p>
+
+                <div class="img-div">
+                  <img
+                    class="customer-img"
+                    src="./images/customer3.png"
+                    alt="Ihor Trachuk"
+                  />
+                </div>
+                <div>
+                  <h4 class="img-h">Ihor Trachuk</h4>
+                  <p class="img-p">
+                    Recently tried my fresh tomatoes and peppers - amazing! The
+                    authenticity of the taste, as if from the garden directly to
+                    my table. It is now my main vegetable supplier.
+                  </p>
+                </div>
               </div>
             </li>
           </ul>
@@ -219,7 +229,6 @@
       <!-- SİXTH SECTİON -->
       <section>
         <!-- Emre -->
-        <p>emre</p>
       </section>
     </main>
 
