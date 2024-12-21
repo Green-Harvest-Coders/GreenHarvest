@@ -56,6 +56,9 @@
   border: 1px solid #d4bfc4;
   border-radius: 24px;
 }
+.customer-li:hover {
+  transform: scale(1.1);
+}
 .img-h {
   font-family: "Inter Tight", sans-serif;
   font-size: 18px;
@@ -76,12 +79,19 @@
 }
 
 @media (min-width: 768px) {
+  .container {
+    width: 100%;
+  }
   .customer-ul {
     display: flex;
     flex-direction: row;
   }
 }
+
 @media (min-width: 1280px) {
+  .container {
+    width: 100%;
+  }
   .review-div {
     display: flex;
     flex-direction: column;
