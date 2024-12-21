@@ -1,0 +1,56 @@
+/* THİRD SECTİON-BERKAN */
+.advert {
+  background-color: #fbfbfb;
+}
+.advertisement {
+  padding: 80px 20px 80px 20px;
+}
+.advertisement-paragraph {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+}
+.advertisement-paragraph span {
+  background-color: #576f35;
+  border-radius: 12px;
+  color: #fbfbfb;
+  display: inline-block;
+  font-size: 48px;
+}
+
+@media (min-width: 768px) {
+  .advertisement {
+    padding: 100px 32px 100px 32px;
+  }
+  .advertisement-paragraph {
+    font-size: 64px;
+    line-height: 64px;
+    margin: 0;
+  }
+  .advertisement-paragraph span {
+    font-size: 64px;
+    line-height: 64px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .advertisement {
+    padding: 100px 110px 100px 116px;
+  }
+
+  .advertisement-paragraph {
+    font-size: 76px;
+    line-height: 76px;
+    margin: 0;
+  }
+
+  .advertisement-paragraph span {
+    font-size: 76px;
+    line-height: 76px;
+    
+    
+  }
+}
